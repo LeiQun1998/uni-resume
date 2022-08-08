@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/project/project",
+    "pages/about/about",
+    "pages/home/home"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "个人简历",
+    "navigationBarBackgroundColor": "#0081ff"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#0081ff",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabBar/me.png",
+        "selectedIconPath": "static/tabBar/me-active.png",
+        "text": "基本信息"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "iconPath": "static/tabBar/project.png",
+        "selectedIconPath": "static/tabBar/project-active.png",
+        "text": "项目经验"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

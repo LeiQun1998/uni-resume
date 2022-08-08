@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				 "navigationBarTitleText": "个人简历"
+			}
+		}
+	    ,{
+            "path" : "pages/project/project",
+            "style": {
+				 "navigationBarTitleText": "项目经验"
+			}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "项目详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "基本信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "个人简历",
+		"navigationBarBackgroundColor": "#0081ff"
+		// "navigationStyle": "custom" // 取消默认导航栏
+		// "backgroundColor": "light"
+	},
+	"usingComponents": { //2 引入
+		// "cu-custom": "/colorui/components/cu-custom"
+	},
+	"tabBar": {
+		"color": "#aaaaaa",
+		"selectedColor": "#0081ff",
+	    "backgroundColor": "#fff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/tabBar/me.png",
+			"selectedIconPath": "static/tabBar/me-active.png",
+			"text": "基本信息"
+		}, {
+			"pagePath": "pages/project/project",
+			"iconPath": "static/tabBar/project.png",
+			"selectedIconPath": "static/tabBar/project-active.png",
+			"text": "项目经验"
+		}]
+	}
+}
