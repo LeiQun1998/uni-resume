@@ -1,19 +1,26 @@
 <p style="text-align: center; font-size: 25px; font-weight: 600;">WX个人简历小程序</p>
+
 ## 说明
+
 此微信小程序代码使用uniapp开发，为个人制作简历小程序时所分离出来，作为个人简历小程序模板，供学习参考，可自行下载解压查看源码。
 
 数据部分为了方便，没有进行后端的连接，数据存在`data/projectList`目录中
 
 ## 交流
+
 QQ群：*491040420*
+
 <p style="text-align: center;"><img src="https://image.weilanwl.com/colorui/githubQrcode.jpg" alt="" style="max-width:100%;" width="748"></p>				  
+
 ## 主要技术栈
+
 - [UniApp](https://uniapp.dcloud.net.cn/)
 - [Color UI](http://docs.xzeu.com/#/)
 
 ------
 
 ## 补充部分
+
 **全局开启分享好友功能**
 
 ```
@@ -42,7 +49,7 @@ onLaunch: function() {
 
 ------
 
-
 ## 以下为作者本人的简历小程序
 
 <p style="text-align: center;"><img src="https://s1.ax1x.com/2022/08/08/vQKGrD.jpg" alt="个人简历" style="width: 200px; height: 200px;"></img></p>
+
