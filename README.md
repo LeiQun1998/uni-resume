@@ -44,6 +44,7 @@ onLaunch: function() {
 **密钥查看**
 
 进入小程序，增加输入密钥才可查看信息功能，**增强隐私性**(可自行修改配合后端动态使用)
+模板的密钥为: aq0519
 
 <p style="text-align: center;"><img src="https://s1.ax1x.com/2022/08/08/vQdMvQ.png" alt="个人简历" style="width: 256px; height: 508px;"></img></p>
 
